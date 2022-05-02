@@ -1,0 +1,776 @@
+#Download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#Download .Text {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#Download .Text p {
+  margin: 0;
+  padding: 0;
+}
+
+#Download .TermsAndConditions p {
+  text-align: center;
+}
+
+#Download .TermsAndConditions p span {
+  text-decoration: underline;
+}
+
+#Download .DownloadButtons {
+  padding-bottom: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+#Download .DownloadButtons a {
+  min-width: 300px;
+  max-width: 200px;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+#Download .DownloadButtons a div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+#Download .DownloadButtons a div i {
+  margin-left: 10px;
+}
+
+#Download .DownloadButtons a div p {
+  line-height: 40px;
+  padding-left: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+#HelpCenter {
+  height: 100%;
+  width: 100%;
+}
+
+#HelpCenter .content {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px 20px 20px 20px;
+  overflow-y: scroll;
+}
+
+#HelpCenter .content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#HelpCenter .content ul li {
+  height: 60px;
+  border-radius: 5px;
+  margin: 20px 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#HelpCenter .content ul li .Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  line-height: 60px;
+  padding-left: 10px;
+}
+
+#HelpCenter .content ul li .Title p {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+#HelpCenter .content ul li .Title i {
+  margin-right: 10px;
+  font-size: 2em;
+  -webkit-transition: -webkit-transform 0.3s 0s ease;
+  transition: -webkit-transform 0.3s 0s ease;
+  transition: transform 0.3s 0s ease;
+  transition: transform 0.3s 0s ease, -webkit-transform 0.3s 0s ease;
+}
+
+#HelpCenter .content ul li .Title .Close {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#HelpCenter .content ul li .Title .Show {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#HelpCenter .content ul li .contents {
+  padding: 20px;
+  display: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  height: 6%;
+  min-height: 50px;
+  padding: 0 10px;
+  border-bottom: solid 0.5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .title {
+  font-size: 1em;
+}
+
+header .RightBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .RightBlock .DownloadButton {
+  padding: 0 10px;
+  font-size: 1em;
+}
+
+header .RightBlock .Menu .MenuList {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .RightBlock .Menu .MenuList li {
+  font-size: 1em;
+  margin: 0 10px;
+}
+
+header .RightBlock .Menu .MenuList li a {
+  text-decoration: none;
+}
+
+header .RightBlock .Menu .MenuList li a:link, header .RightBlock .Menu .MenuList li a:visited, header .RightBlock .Menu .MenuList li a:hover, header .RightBlock .Menu .MenuList li a:active {
+  color: white;
+}
+
+header .RightBlock .Menu .MenuList li i {
+  font-size: 1.3em;
+}
+
+#TermsAndConditionsWeb {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  border-radius: 5px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#TermsAndConditionsWeb .content {
+  overflow-wrap: break-word;
+  height: auto;
+  width: 100%;
+}
+
+#TermsAndConditionsApp {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  border-radius: 5px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#TermsAndConditionsApp .content {
+  overflow-wrap: break-word;
+  height: auto;
+  width: 100%;
+}
+
+.HoverColor_Background {
+  background-color: rgba(59, 59, 59, 0.466) !important;
+}
+
+.WarningColor_Text {
+  color: red !important;
+}
+
+.BaseColor_Background {
+  background-color: black !important;
+}
+
+.BaseColor_Text {
+  color: black !important;
+}
+
+.BaseColor_Text_Transparent {
+  color: rgba(0, 0, 0, 0.337) !important;
+}
+
+.BaseColor_Border {
+  border-color: black !important;
+}
+
+.MainColor_Text {
+  color: white !important;
+}
+
+.MainColor_Text_Transparent {
+  color: rgba(255, 255, 255, 0.606) !important;
+}
+
+.MainColor_Fill {
+  fill: white !important;
+}
+
+.MainColor_Image {
+  -webkit-filter: opacity(0.5) drop-shadow(0 0 0 white);
+          filter: opacity(0.5) drop-shadow(0 0 0 white);
+}
+
+.MainColor_Background {
+  background-color: white !important;
+}
+
+.MainColor_Background_Transparent {
+  background-color: rgba(255, 255, 255, 0.773) !important;
+}
+
+.MainColor_Border {
+  border-color: white !important;
+}
+
+.SecondeColor_Background {
+  background-color: #181818 !important;
+}
+
+.SecondeColor_Text {
+  color: #181818 !important;
+}
+
+.SecondeColor_Border {
+  border-color: #181818 !important;
+}
+
+.ThirdColor_Background {
+  background-color: #575757 !important;
+}
+
+.ThirdColor_Border {
+  border-color: #0e0e0e !important;
+}
+
+.ThirdColor_Text {
+  color: #0e0e0e !important;
+}
+
+.ThemeColor_Border {
+  border-color: #bbbb00 !important;
+}
+
+.ThemeColor_Outline {
+  outline-color: #bbbb00 !important;
+}
+
+.ThemeColor_RadioButton {
+  accent-color: #bbbb00 !important;
+}
+
+.ThemeColor_Text {
+  color: #bbbb00 !important;
+}
+
+.ThemeColor_Background {
+  background-color: #bbbb00 !important;
+}
+
+.BaseColor_Border_Transparent {
+  border-color: rgba(0, 0, 0, 0.599);
+}
+
+.MainColor_Border_Transparent {
+  border-color: rgba(255, 255, 255, 0.396);
+}
+
+body, html {
+  font-family: system-ui;
+}
+
+.Smooth_Text {
+  -webkit-transition: color 0.2s 0s ease;
+  transition: color 0.2s 0s ease;
+}
+
+.Smooth_Background {
+  -webkit-transition: background-color 0.2s 0s ease;
+  transition: background-color 0.2s 0s ease;
+}
+
+.CursorPointer {
+  cursor: pointer;
+}
+
+#PopUpScreen {
+  -webkit-box-shadow: #454545 0px 0px 20px 0px;
+          box-shadow: #454545 0px 0px 20px 0px;
+  background-color: gray;
+  display: none;
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  z-index: 50;
+  border-radius: 10px;
+}
+
+#PopUpScreen .CloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#PopUpScreen .CloseButton i {
+  -webkit-transition: font-size 0.3s 0s ease;
+  transition: font-size 0.3s 0s ease;
+  position: absolute;
+  font-size: 2.5em;
+  top: 0;
+  right: 0;
+  border: solid 1.5px;
+  border-radius: 50%;
+}
+
+#PopUpScreen .CloseButton i:hover {
+  font-size: 2.7em;
+  top: 0;
+  right: 0;
+  border: solid 1.5px;
+  border-radius: 50%;
+}
+
+#PopUpScreen > .content {
+  height: 100%;
+  width: 100%;
+}
+
+.PopUpScreenBackground {
+  display: none;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  z-index: 10;
+}
+
+#ScrollContents .FirstPage {
+  background-image: url(2918437e9ce73463b4b2.png);
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#ScrollContents .FirstPage video {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  z-index: 3;
+}
+
+#ScrollContents .FirstPage .Title {
+  position: absolute;
+  display: none;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+  top: 45px;
+}
+
+#ScrollContents .FirstPage .Title .Main {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+#ScrollContents .FirstPage .Title .Sub {
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+#ScrollContents .FirstPage .DownloadButton {
+  display: none;
+  -webkit-box-shadow: 0px 0px 20px 6px black;
+          box-shadow: 0px 0px 20px 6px black;
+  position: fixed;
+  bottom: 150px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border: solid 1px;
+  width: 200px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#ScrollContents .FirstPage .DownloadButton p {
+  text-align: center;
+  line-height: 40px;
+  margin: 0;
+}
+
+#ScrollContents .FirstPage .ScrollDownMessege {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 10px;
+  width: 10px;
+  z-index: 5;
+}
+
+#ScrollContents .FirstPage .ScrollDownMessege i {
+  position: relative;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: ScrollAnim;
+          animation-name: ScrollAnim;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes ScrollAnim {
+  from {
+    top: -50px;
+    font-size: 3em;
+  }
+  to {
+    top: 0px;
+    font-size: 3.5em;
+  }
+}
+
+@keyframes ScrollAnim {
+  from {
+    top: -50px;
+    font-size: 3em;
+  }
+  to {
+    top: 0px;
+    font-size: 3.5em;
+  }
+}
+
+#ScrollContents .SecondePage {
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+
+#ScrollContents .SecondePage .content {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#ScrollContents .SecondePage .content .Message {
+  font-size: 1.5em;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#ScrollContents .SecondePage .content .Message p {
+  position: relative;
+  margin: 0;
+  padding-top: 10px;
+}
+
+#ScrollContents .SecondePage .content .video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+#ScrollContents .SecondePage .content .video iframe {
+  width: calc(100% - 30px);
+  height: 100%;
+  max-width: 1000px;
+  max-height: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#ScrollContents .SecondePage .content .footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#ScrollContents .SecondePage .content .footer .LeftBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#ScrollContents .SecondePage .content .footer .LeftBlock .Logo {
+  margin: 0 0 3px 10px;
+  width: 70px;
+  height: 70px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCIKWwo8IUFUVExJU1QgZwogIHhtbG5zOnZlY3Rvcm5hdG9yIENEQVRBICNGSVhFRCAiaHR0cDovL3ZlY3Rvcm5hdG9yLmlvIgogIHZlY3Rvcm5hdG9yOmxheWVyTmFtZSBDREFUQSAjSU1QTElFRCA+CjwhQVRUTElTVCBnCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6bWFzayBDREFUQSAjSU1QTElFRCA+CjwhQVRUTElTVCB0ZXh0CiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6d2lkdGggQ0RBVEEgI0lNUExJRUQgPgo8IUFUVExJU1QgdGV4dAogIHhtbG5zOnZlY3Rvcm5hdG9yIENEQVRBICNGSVhFRCAiaHR0cDovL3ZlY3Rvcm5hdG9yLmlvIgogIHZlY3Rvcm5hdG9yOnRleHQgQ0RBVEEgI0lNUExJRUQgPgoKPCFBVFRMSVNUIHBhdGgKICB4bWxuczp2ZWN0b3JuYXRvciBDREFUQSAjRklYRUQgImh0dHA6Ly92ZWN0b3JuYXRvci5pbyIKICB2ZWN0b3JuYXRvcjpibGVuZE1vZGUgQ0RBVEEgI0lNUExJRUQgPgo8IUFUVExJU1QgcGF0aAogIHhtbG5zOnZlY3Rvcm5hdG9yIENEQVRBICNGSVhFRCAiaHR0cDovL3ZlY3Rvcm5hdG9yLmlvIgogIHZlY3Rvcm5hdG9yOnNoYWRvd0NvbG9yIENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIHBhdGgKICB4bWxuczp2ZWN0b3JuYXRvciBDREFUQSAjRklYRUQgImh0dHA6Ly92ZWN0b3JuYXRvci5pbyIKICB2ZWN0b3JuYXRvcjpzaGFkb3dPcGFjaXR5IENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIHBhdGgKICB4bWxuczp2ZWN0b3JuYXRvciBDREFUQSAjRklYRUQgImh0dHA6Ly92ZWN0b3JuYXRvci5pbyIKICB2ZWN0b3JuYXRvcjpzaGFkb3dSYWRpdXMgQ0RBVEEgI0lNUExJRUQgPgo8IUFUVExJU1QgcGF0aAogIHhtbG5zOnZlY3Rvcm5hdG9yIENEQVRBICNGSVhFRCAiaHR0cDovL3ZlY3Rvcm5hdG9yLmlvIgogIHZlY3Rvcm5hdG9yOnNoYWRvd09mZnNldCBDREFUQSAjSU1QTElFRCA+CjwhQVRUTElTVCBwYXRoCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6c2hhZG93QW5nbGUgQ0RBVEEgI0lNUExJRUQgPgoKPCFBVFRMSVNUIGltYWdlCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6YmxlbmRNb2RlIENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIGltYWdlCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6c2hhZG93Q29sb3IgQ0RBVEEgI0lNUExJRUQgPgo8IUFUVExJU1QgaW1hZ2UKICB4bWxuczp2ZWN0b3JuYXRvciBDREFUQSAjRklYRUQgImh0dHA6Ly92ZWN0b3JuYXRvci5pbyIKICB2ZWN0b3JuYXRvcjpzaGFkb3dPcGFjaXR5IENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIGltYWdlCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6c2hhZG93UmFkaXVzIENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIGltYWdlCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6c2hhZG93T2Zmc2V0IENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIGltYWdlCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6c2hhZG93QW5nbGUgQ0RBVEEgI0lNUExJRUQgPgoKPCFBVFRMSVNUIGcKICB4bWxuczp2ZWN0b3JuYXRvciBDREFUQSAjRklYRUQgImh0dHA6Ly92ZWN0b3JuYXRvci5pbyIKICB2ZWN0b3JuYXRvcjpibGVuZE1vZGUgQ0RBVEEgI0lNUExJRUQgPgo8IUFUVExJU1QgZwogIHhtbG5zOnZlY3Rvcm5hdG9yIENEQVRBICNGSVhFRCAiaHR0cDovL3ZlY3Rvcm5hdG9yLmlvIgogIHZlY3Rvcm5hdG9yOnNoYWRvd0NvbG9yIENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIGcKICB4bWxuczp2ZWN0b3JuYXRvciBDREFUQSAjRklYRUQgImh0dHA6Ly92ZWN0b3JuYXRvci5pbyIKICB2ZWN0b3JuYXRvcjpzaGFkb3dPcGFjaXR5IENEQVRBICNJTVBMSUVEID4KPCFBVFRMSVNUIGcKICB4bWxuczp2ZWN0b3JuYXRvciBDREFUQSAjRklYRUQgImh0dHA6Ly92ZWN0b3JuYXRvci5pbyIKICB2ZWN0b3JuYXRvcjpzaGFkb3dSYWRpdXMgQ0RBVEEgI0lNUExJRUQgPgo8IUFUVExJU1QgZwogIHhtbG5zOnZlY3Rvcm5hdG9yIENEQVRBICNGSVhFRCAiaHR0cDovL3ZlY3Rvcm5hdG9yLmlvIgogIHZlY3Rvcm5hdG9yOnNoYWRvd09mZnNldCBDREFUQSAjSU1QTElFRCA+CjwhQVRUTElTVCBnCiAgeG1sbnM6dmVjdG9ybmF0b3IgQ0RBVEEgI0ZJWEVEICJodHRwOi8vdmVjdG9ybmF0b3IuaW8iCiAgdmVjdG9ybmF0b3I6c2hhZG93QW5nbGUgQ0RBVEEgI0lNUExJRUQgPgoKPCFFTlRJVFkgJSBTVkcuZmlsdGVyLmV4dHJhLmNvbnRlbnQgICJ8IGZlRHJvcFNoYWRvdyIgPgo8IUVMRU1FTlQgZmVEcm9wU2hhZG93IEVNUFRZPgo8IUFUVExJU1QgZmVEcm9wU2hhZG93CiAgeG1sbnM6c3ZnIENEQVRBICNGSVhFRCAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIgogIGR4IENEQVRBICNJTVBMSUVEPgo8IUFUVExJU1QgZmVEcm9wU2hhZG93CiAgeG1sbnM6c3ZnIENEQVRBICNGSVhFRCAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIgogIGR5IENEQVRBICNJTVBMSUVEPgo8IUFUVExJU1QgZmVEcm9wU2hhZG93CiAgeG1sbnM6c3ZnIENEQVRBICNGSVhFRCAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIgogIHN0ZERldmlhdGlvbiBDREFUQSAjSU1QTElFRD4KPCFBVFRMSVNUIGZlRHJvcFNoYWRvdwogIHhtbG5zOnN2ZyBDREFUQSAjRklYRUQgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCIKICBmbG9vZC1vcGFjaXR5IENEQVRBICNJTVBMSUVEPgo8IUFUVExJU1QgZmVEcm9wU2hhZG93CiAgeG1sbnM6c3ZnIENEQVRBICNGSVhFRCAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIgogIGluIENEQVRBICNJTVBMSUVEPgo8IUFUVExJU1QgZmVEcm9wU2hhZG93CiAgeG1sbnM6c3ZnIENEQVRBICNGSVhFRCAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIgogIHJlc3VsdCBDREFUQSAjSU1QTElFRD4KPCFBVFRMSVNUIGZlRHJvcFNoYWRvdwogIHhtbG5zOnN2ZyBDREFUQSAjRklYRUQgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCIKICBmbG9vZC1jb2xvciBDREFUQSAjSU1QTElFRD4KXQo+CjwhLS0gQ3JlYXRlZCB3aXRoIFZlY3Rvcm5hdG9yIChodHRwOi8vdmVjdG9ybmF0b3IuaW8vKSAtLT4KPHN2ZyBoZWlnaHQ9IjEwMCUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3R5bGU9ImZpbGwtcnVsZTpub256ZXJvO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6dmVjdG9ybmF0b3I9Imh0dHA6Ly92ZWN0b3JuYXRvci5pbyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8ZGVmcz4KPGZpbHRlciBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaGVpZ2h0PSI5MjAiIGlkPSJGaWx0ZXIiIHdpZHRoPSI5MjAiIHg9Ijc0Ljc3NDMiIHk9IjY1LjkwNTkiPgo8ZmVEcm9wU2hhZG93IGR4PSIyMi43NzQzIiBkeT0iMTMuOTA1OSIgZmxvb2QtY29sb3I9IiMwMDAwMDAiIGZsb29kLW9wYWNpdHk9IjAuNjgyMzU1IiBpbj0iU291cmNlR3JhcGhpYyIgcmVzdWx0PSJTaGFkb3ciIHN0ZERldmlhdGlvbj0iMjUiLz4KPC9maWx0ZXI+CjxmaWx0ZXIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGhlaWdodD0iNDk1Ljg0NCIgaWQ9IkZpbHRlcl8yIiB3aWR0aD0iMzc2IiB4PSIxNjIuNDA2IiB5PSIyNjQuMDYyIj4KPGZlRHJvcFNoYWRvdyBkeD0iLTAiIGR5PSItMCIgZmxvb2QtY29sb3I9IiMwMDAwMDAiIGZsb29kLW9wYWNpdHk9IjEiIGluPSJTb3VyY2VHcmFwaGljIiByZXN1bHQ9IlNoYWRvdyIgc3RkRGV2aWF0aW9uPSIyNSIvPgo8L2ZpbHRlcj4KPGZpbHRlciBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaGVpZ2h0PSI0OTUuODQ0IiBpZD0iRmlsdGVyXzMiIHdpZHRoPSIzNzUuOTY5IiB4PSI0ODUuNjI1IiB5PSIyNjQuMDYyIj4KPGZlRHJvcFNoYWRvdyBkeD0iLTAiIGR5PSItMCIgZmxvb2QtY29sb3I9IiMwMDAwMDAiIGZsb29kLW9wYWNpdHk9IjEiIGluPSJTb3VyY2VHcmFwaGljIiByZXN1bHQ9IlNoYWRvdyIgc3RkRGV2aWF0aW9uPSIyNSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8ZyBpZD0iTGF5ZXItMSIgdmVjdG9ybmF0b3I6bGF5ZXJOYW1lPSJMYXllciAxIi8+CjxnIGlkPSJCYWNrZ3JvdW5kIiB2ZWN0b3JuYXRvcjpsYXllck5hbWU9IkJhY2tncm91bmQiPgo8cGF0aCBkPSJNNjk4LjYzIDkyMkwzMjUuMzcgOTIyQzIwMi4wMDYgOTIyIDEwMiA4MjEuOTk0IDEwMiA2OTguNjNMMTAyIDMyNS4zN0MxMDIgMjAyLjAwNiAyMDIuMDA2IDEwMiAzMjUuMzcgMTAyTDY5OC42MyAxMDJDODIxLjk5NCAxMDIgOTIyIDIwMi4wMDYgOTIyIDMyNS4zN0w5MjIgNjk4LjYzQzkyMiA4MjEuOTk0IDgyMS45OTQgOTIyIDY5OC42MyA5MjJaIiBmaWxsPSIjMmMyYzJjIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbHRlcj0idXJsKCNGaWx0ZXIpIiBzdHJva2U9Im5vbmUiIHZlY3Rvcm5hdG9yOnNoYWRvd0FuZ2xlPSIwLjU0ODE3NCIgdmVjdG9ybmF0b3I6c2hhZG93Q29sb3I9IiMwMDAwMDAiIHZlY3Rvcm5hdG9yOnNoYWRvd09mZnNldD0iMjYuNjg0MSIgdmVjdG9ybmF0b3I6c2hhZG93T3BhY2l0eT0iMC42ODIzNTUiIHZlY3Rvcm5hdG9yOnNoYWRvd1JhZGl1cz0iNTAiLz4KPC9nPgo8ZyBpZD0iTS1pY29uLV8tdG93ZXIiIHZlY3Rvcm5hdG9yOmxheWVyTmFtZT0iTSBpY29uIF8gdG93ZXIiLz4KPGcgaWQ9IkN1cnZlLSIgdmVjdG9ybmF0b3I6bGF5ZXJOYW1lPSJDdXJ2ZSAiPgo8cGF0aCBkPSJNNDU4LjUzMSAzMTQuMDYyQzQ1OC4yMzggMzE0LjA2MyA0NTcuOTQ5IDMxNC4wOTIgNDU3LjY1NiAzMTQuMDk0TDQ1NS4wOTQgMzE0LjA5NEM0NTUuMDQ5IDMxNC4wOTQgNDU1LjAxMyAzMTQuMTggNDU0Ljk2OSAzMTQuMTg4QzMyNi4xNzEgMzE2LjkwNyAyMTIuNDA2IDQ2Ni40IDIxMi40MDYgNzA5LjkwNkMyMTIuNDA2IDcwOS45MDYgMjQ1Ljc4NCA3MDkuOTA2IDI2MC45MDYgNzA5LjkwNkMyNjAuOTA2IDUxMi4xNjggMzQ0LjcxNyAzOTYuODYyIDQ1Mi4yMTkgMzY5LjA2Mkw0NTIuMjE5IDY5OS4zNzVDNDUyLjIxOSA3MDUuMTk2IDQ1My41MTMgNzA5LjkwNiA0NTUuMDk0IDcwOS45MDZMNDg1LjUzMSA3MDkuOTA2QzQ4Ny4xMTIgNzA5LjkwNiA0ODguNDA2IDcwNS4xOTcgNDg4LjQwNiA2OTkuMzc1TDQ4OC40MDYgMzI0LjYyNUM0ODguNDA2IDMxOC44MDMgNDg3LjExMiAzMTQuMDk0IDQ4NS41MzEgMzE0LjA5NEw0NTguNTYzIDMxNC4wOTRDNDU4LjU2MiAzMTQuMDk0IDQ1OC41MzEgMzE0LjA2MiA0NTguNTMxIDMxNC4wNjJaIiBmaWxsPSIjOWU4YTQzIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbHRlcj0idXJsKCNGaWx0ZXJfMikiIHN0cm9rZT0ibm9uZSIgdmVjdG9ybmF0b3I6c2hhZG93QW5nbGU9IjMuNTA4MTEiIHZlY3Rvcm5hdG9yOnNoYWRvd0NvbG9yPSIjMDAwMDAwIiB2ZWN0b3JuYXRvcjpzaGFkb3dPZmZzZXQ9IjAiIHZlY3Rvcm5hdG9yOnNoYWRvd09wYWNpdHk9IjEiIHZlY3Rvcm5hdG9yOnNoYWRvd1JhZGl1cz0iNTAiLz4KPHBhdGggZD0iTTU2NS40NjkgMzE0LjA2MkM1NjUuNDY5IDMxNC4wNjIgNTY1LjQzOCAzMTQuMDk0IDU2NS40MzggMzE0LjA5NEw1MzguNSAzMTQuMDk0QzUzNi45MiAzMTQuMDk0IDUzNS42MjUgMzE4LjgwMyA1MzUuNjI1IDMyNC42MjVMNTM1LjYyNSAzNjMuMDMxTDUzNS42MjUgNjk5LjM3NUM1MzUuNjI1IDcwNS4xOTYgNTM2LjkyIDcwOS45MDYgNTM4LjUgNzA5LjkwNkw1NjguOTM4IDcwOS45MDZDNTcwLjUxOCA3MDkuOTA2IDU3MS44MTMgNzA1LjE5NyA1NzEuODEzIDY5OS4zNzVMNTcxLjgxMyAzNjkuMDYyQzY3OS4zMDEgMzk2Ljg3NiA3NjMuMDk0IDUxMi4xODYgNzYzLjA5NCA3MDkuOTA2Qzc3OC4yMTYgNzA5LjkwNiA4MTEuNTk0IDcwOS45MDYgODExLjU5NCA3MDkuOTA2QzgxMS41OTQgNDY2LjQyIDY5Ny44NDcgMzE2LjkzIDU2OS4wNjMgMzE0LjE4OEM1NjkuMDE5IDMxNC4xOCA1NjguOTgyIDMxNC4wOTQgNTY4LjkzOCAzMTQuMDk0TDU2Ni4zNDQgMzE0LjA5NEM1NjYuMDUxIDMxNC4wOTIgNTY1Ljc2MiAzMTQuMDYzIDU2NS40NjkgMzE0LjA2MloiIGZpbGw9IiM5ZThhNDMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsdGVyPSJ1cmwoI0ZpbHRlcl8zKSIgc3Ryb2tlPSJub25lIiB2ZWN0b3JuYXRvcjpzaGFkb3dBbmdsZT0iMy41MDgxMSIgdmVjdG9ybmF0b3I6c2hhZG93Q29sb3I9IiMwMDAwMDAiIHZlY3Rvcm5hdG9yOnNoYWRvd09mZnNldD0iMCIgdmVjdG9ybmF0b3I6c2hhZG93T3BhY2l0eT0iMSIgdmVjdG9ybmF0b3I6c2hhZG93UmFkaXVzPSI1MCIvPgo8L2c+Cjwvc3ZnPgo=);
+  background-size: cover;
+  background-position: center;
+}
+
+#ScrollContents .SecondePage .content .footer .LeftBlock .Texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#ScrollContents .SecondePage .content .footer .LeftBlock .Texts .TermsAndConditions p {
+  padding: 5px 0;
+}
+
+#ScrollContents .SecondePage .content .footer .LeftBlock .Texts .CopyLight {
+  margin-right: 20px;
+}
+
+#ScrollContents .SecondePage .content .footer .LeftBlock .Texts .CopyLight p {
+  margin: 5px 0;
+}
+
+#ScrollContents .SecondePage .content .footer .RightBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px 10px 0;
+}
+
+#ScrollContents .SecondePage .content .footer .RightBlock .TermsAndConditions a {
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+}
+
+#ScrollContents .SecondePage .content .footer .RightBlock .SNS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#ScrollContents .SecondePage .content .footer .RightBlock .SNS div {
+  margin: 0 10px;
+  height: 40px;
+}
+
+#ScrollContents .SecondePage .content .footer .RightBlock .SNS div a {
+  height: 20px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 2em;
+  color: white;
+}
+
+#ScrollContents .SecondePage .content .footer .RightBlock .SNS div a:hover {
+  color: #bbbb00;
+}
+
+.Teleport {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.FadeIn {
+  opacity: 1 !important;
+  pointer-events: auto;
+}
+
+.FadeOut {
+  opacity: 0 !important;
+  pointer-events: none;
+}
