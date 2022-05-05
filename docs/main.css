@@ -258,6 +258,10 @@ header .RightBlock .Menu .MenuList li a:link, header .RightBlock .Menu .MenuList
   color: white;
 }
 
+header .RightBlock .Menu .MenuList li a::link, header .RightBlock .Menu .MenuList li a::visited, header .RightBlock .Menu .MenuList li a::hover, header .RightBlock .Menu .MenuList li a::active {
+  color: white;
+}
+
 header .RightBlock .Menu .MenuList li i {
   font-size: 1.3em;
 }
@@ -423,7 +427,10 @@ body, html {
   background-color: gray;
   display: none;
   position: fixed;
-  inset: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin: auto;
   z-index: 50;
   border-radius: 10px;
@@ -462,7 +469,10 @@ body, html {
 .PopUpScreenBackground {
   display: none;
   position: fixed;
-  inset: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   -webkit-backdrop-filter: blur(2px);
@@ -475,7 +485,10 @@ body, html {
   background-size: cover;
   background-position: center;
   position: fixed;
-  inset: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
   width: 100%;
 }
@@ -506,6 +519,20 @@ body, html {
 #ScrollContents .FirstPage .Title .Sub {
   margin-top: 5px;
   font-size: 0.9em;
+}
+
+@media (max-width: 400px) {
+  #ScrollContents .FirstPage .Title {
+    top: 20px;
+  }
+  #ScrollContents .FirstPage .Title .Main {
+    font-size: 3em;
+    margin-bottom: 5px;
+  }
+  #ScrollContents .FirstPage .Title .Sub {
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
 }
 
 #ScrollContents .FirstPage .DownloadButton {
@@ -619,7 +646,8 @@ body, html {
 #ScrollContents .SecondePage .content .video {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  width: 100vw;
+  height: 50vw;
 }
 
 #ScrollContents .SecondePage .content .video iframe {
