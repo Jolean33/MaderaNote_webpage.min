@@ -1,3 +1,6 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
 #Download {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,6 +61,10 @@
 }
 
 #Download .DownloadButtons a {
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
   min-width: 300px;
   max-width: 200px;
   height: 40px;
@@ -114,6 +121,11 @@
   text-align: center;
 }
 
+#Download .DownloadButtons a:hover {
+  -webkit-box-shadow: black 0px 0px 7px 0px;
+          box-shadow: black 0px 0px 7px 0px;
+}
+
 #HelpCenter {
   height: 100%;
   width: 100%;
@@ -134,7 +146,7 @@
 }
 
 #HelpCenter .content ul li {
-  height: 60px;
+  min-height: 60px;
   border-radius: 5px;
   margin: 20px 0;
   overflow-y: hidden;
@@ -158,13 +170,15 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
-  line-height: 60px;
-  padding-left: 10px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #HelpCenter .content ul li .Title p {
-  margin: 0;
+  margin: 5px 0 0 0;
   font-size: 1.3em;
+  line-height: 30px;
 }
 
 #HelpCenter .content ul li .Title i {
@@ -484,17 +498,17 @@ body, html {
   text-align: center;
   width: 100%;
   z-index: 5;
-  top: 45px;
+  top: 40px;
 }
 
 #ScrollContents .FirstPage .Title .Main {
-  font-size: 3em;
+  font-size: 3.5em;
   margin-bottom: 5px;
 }
 
 #ScrollContents .FirstPage .Title .Sub {
   margin-top: 5px;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 #ScrollContents .FirstPage .DownloadButton {
@@ -533,7 +547,10 @@ body, html {
 }
 
 #ScrollContents .FirstPage .ScrollDownMessege i {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-name: ScrollAnim;
@@ -546,22 +563,22 @@ body, html {
 
 @-webkit-keyframes ScrollAnim {
   from {
-    top: -50px;
+    top: -100px;
     font-size: 3em;
   }
   to {
-    top: 0px;
+    top: -50px;
     font-size: 3.5em;
   }
 }
 
 @keyframes ScrollAnim {
   from {
-    top: -50px;
+    top: -100px;
     font-size: 3em;
   }
   to {
-    top: 0px;
+    top: -50px;
     font-size: 3.5em;
   }
 }
@@ -689,15 +706,12 @@ body, html {
   margin-bottom: 10px;
 }
 
-#ScrollContents .SecondePage .content .footer .LeftBlock .Texts .TermsAndConditions p {
-  padding: 5px 0;
-}
-
 #ScrollContents .SecondePage .content .footer .LeftBlock .Texts .CopyLight {
   margin-right: 20px;
 }
 
 #ScrollContents .SecondePage .content .footer .LeftBlock .Texts .CopyLight p {
+  white-space: nowrap;
   margin: 5px 0;
 }
 
@@ -715,9 +729,11 @@ body, html {
   margin: 0 10px 10px 0;
 }
 
-#ScrollContents .SecondePage .content .footer .RightBlock .TermsAndConditions a {
+#ScrollContents .SecondePage .content .footer .RightBlock .TermsAndConditions p {
+  white-space: nowrap;
   text-decoration: none;
-  padding: 5px 0;
+  padding: 2px 0;
+  margin-bottom: 2px;
   display: block;
 }
 

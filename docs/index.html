@@ -1,3 +1,106 @@
-<!doctype html><html><head><meta charset="utf-8"/><title>Webpack App</title><link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="keyword" content="Note,Note app,note app,memo,memo app,Memo app,MaderaNote,maderanote,Maderanote,maderaNote"><meta name="description" content="MaderaNote is a free memo app. You can take a note with powerful rich text editor, and you can organize your documents with folders."><!--[if lt IE 9]>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MaderaNote</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <meta name="keyword" content="Note,Note app,note app,memo,memo app,Memo app,MaderaNote,maderanote,Maderanote,maderaNote">
+        <meta name="description" content="MaderaNote is a free memo app. You can take a note with powerful rich text editor, and you can organize your documents with folders.">
+        <!--[if lt IE 9]>
         <script src="http://api.html5media.info/1.2.2/html5media.min.js"></script>
-        <![endif]--><link rel="icon" href="Madera_Note_Icon.ico"><script defer="defer" src="main.js"></script><link href="main.css" rel="stylesheet"></head><body class="MainColor_Background"><div class="PopUpScreenBackground"></div><div id="PopUpScreen"><div class="CloseButton MainColor_Text"><i class="ri-close-line"></i></div><div class="content"></div></div><header class="MainColor_Border_Transparent"><p class="title MainColor_Text">MaderaNote</p><div class="RightBlock"><div class="Menu"><ul class="MenuList MainColor_Text"><li class="HelpCenter CursorPointer ThemeColor_Text_Hover Smooth_Text NormalWindow">Help</li><li class="Contact CursorPointer NormalWindow"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdxJvc9paAMq_z6PsMgNANXqXovp84y5nMbOQmSAR5t2U9Aiw/viewform?usp=sf_link" class="ThemeColor_Text_Hover Smooth_Text">Contact</a></li><li class="Donate CursorPointer NormalWindow"><a href="https://www.patreon.com/ChocolateAnts?fan_landing=true" class="ThemeColor_Text_Hover Smooth_Text">Donate</a></li></ul></div><div class="DownloadButton MainColor_Text"><p class="Smooth_Text CursorPointer ThemeColor_Text_Hover">Download</p></div></div></header><div id="MainScroll"></div><div id="ScrollContents"><div class="FirstPage"><video src="3d7fc6c20493ecc9d75c.mp4" muted autoplay playsinline><source src="2918437e9ce73463b4b2.png"></video><div class="Title"><p class="Main MainColor_Text">MaderaNote</p><p class="Sub MainColor_Text_Transparent">let's take a note</p></div><div class="DownloadButton MainColor_Border"><p class="MainColor_Text CursorPointer">Download</p></div><div class="ScrollDownMessege MainColor_Text"><i class="ri-arrow-down-line"></i></div></div><div class="Scroll Slide SecondePage MainColor_Text SecondeColor_Background"><div class="content"><div class="Message"><p class="Message1"></p><p class="Message2"></p></div><div class="video"><iframe height="315" src="https://www.youtube.com/embed/NHmRPJY0AeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><div class="footer"><div class="LeftBlock"><div class="Logo"></div><div class="Texts"><div class="CopyLight"><p>&copy; 2022 MaderaNote</p></div></div></div><div class="RightBlock"><div class="TermsAndConditions"><p class="MainColor_Text ThemeColor_Text_Hover Smooth_Text CursorPointer">Terms and Conditions</p></div><div class="SNS"><div class="youtube"><a href="https://www.youtube.com/channel/UCf3ohYNmXBu6G_mwywm-VQA" class="ThemeColor_Text_Hover Smooth_Text"><i class="ri-youtube-fill"></i></a></div><div class="instagram"><a href="https://www.instagram.com/chocolate_ants/" class="ThemeColor_Text_Hover Smooth_Text"><i class="ri-instagram-fill"></i></a></div></div></div></div></div></div></div></body></html>
+        <![endif]-->
+    <link rel="icon" href="Madera_Note_Icon.ico"><script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+    <body class="MainColor_Background">
+
+        <div class="PopUpScreenBackground"></div>
+
+        <div id="PopUpScreen">
+            <div class="CloseButton MainColor_Text"><i class="ri-close-line"></i></div>
+            <div class="content">
+
+            </div>
+        </div>
+
+        <header class="MainColor_Border_Transparent">
+            <p class="title MainColor_Text">MaderaNote</p>
+
+            <div class="RightBlock">
+                <div class="Menu">
+                    <ul class="MenuList MainColor_Text">
+                        <li class="HelpCenter CursorPointer ThemeColor_Text_Hover Smooth_Text NormalWindow">Help</li>
+                        <li class="BugReport CursorPointer NormalWindow"><a href="https://github.com/Jolean33/MaderaNote_BugReport/issues" class="ThemeColor_Text_Hover Smooth_Text">BugReport</a></li>
+                        <li class="Contact CursorPointer NormalWindow"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdxJvc9paAMq_z6PsMgNANXqXovp84y5nMbOQmSAR5t2U9Aiw/viewform?usp=sf_link" class="ThemeColor_Text_Hover Smooth_Text">Contact</a></li>
+                        <li class="Donate CursorPointer NormalWindow"><a href="https://www.patreon.com/ChocolateAnts?fan_landing=true" class="ThemeColor_Text_Hover Smooth_Text">Donate</a></li>
+                    </ul>
+                </div>
+    
+                <div class="DownloadButton MainColor_Text">
+                    <p class="Smooth_Text CursorPointer ThemeColor_Text_Hover">Download</p>
+                </div>
+            </div>
+        </header>
+
+        <div id="MainScroll"></div>
+
+        <div id="ScrollContents">
+            <div class="FirstPage">
+                <video src="3d7fc6c20493ecc9d75c.mp4" muted autoplay playsinline>
+                    <source src="2918437e9ce73463b4b2.png">
+                </video>
+                <div class="Title">
+                    <p class="Main MainColor_Text">MaderaNote</p>
+                    <p class="Sub MainColor_Text_Transparent">Simple note taking for your complex ideas</p>
+                </div>
+                <div class="DownloadButton MainColor_Border">
+                    <p class="MainColor_Text CursorPointer">Download</p>
+                </div>
+                <div class="ScrollDownMessege MainColor_Text">
+                    <i class="ri-arrow-down-line"></i>
+                </div>
+            </div>
+
+            <div class="Scroll Slide SecondePage MainColor_Text SecondeColor_Background">
+                <div class="content">
+                    <div class="Message">
+                        <p class="Message1"></p>
+                        <p class="Message2"></p>
+                    </div>
+                    <div class="video">
+                        <iframe height="315" src="https://www.youtube.com/embed/NHmRPJY0AeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="footer">
+                        <div class="LeftBlock">
+                            <div class="Logo">
+
+                            </div>
+                            <div class="Texts">
+                                <div class="CopyLight">
+                                    <p>&copy; 2022 MaderaNote</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="RightBlock">
+                            <div class="TermsAndConditions">
+                                <p class="MainColor_Text ThemeColor_Text_Hover Smooth_Text CursorPointer">Terms and Conditions</p>
+                            </div>
+                            <div class="SNS">
+                                <div class="youtube">
+                                    <a href="https://www.youtube.com/channel/UCf3ohYNmXBu6G_mwywm-VQA" class="ThemeColor_Text_Hover Smooth_Text">
+                                        <i class="ri-youtube-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="instagram">
+                                    <a href="https://www.instagram.com/chocolate_ants/" class="ThemeColor_Text_Hover Smooth_Text">
+                                        <i class="ri-instagram-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
