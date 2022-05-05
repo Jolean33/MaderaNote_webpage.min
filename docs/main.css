@@ -258,10 +258,6 @@ header .RightBlock .Menu .MenuList li a:link, header .RightBlock .Menu .MenuList
   color: white;
 }
 
-header .RightBlock .Menu .MenuList li a::link, header .RightBlock .Menu .MenuList li a::visited, header .RightBlock .Menu .MenuList li a::hover, header .RightBlock .Menu .MenuList li a::active {
-  color: white;
-}
-
 header .RightBlock .Menu .MenuList li i {
   font-size: 1.3em;
 }
