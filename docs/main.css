@@ -658,6 +658,14 @@ body, html {
   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
+#ScrollContents .SecondePage .content .Warning {
+  display: none;
+}
+
+#ScrollContents .SecondePage .content .Warning p {
+  text-align: center;
+}
+
 #ScrollContents .SecondePage .content .footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
